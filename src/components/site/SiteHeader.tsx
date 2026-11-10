@@ -18,7 +18,7 @@ export function Logo({ onDark = false }: { onDark?: boolean }) {
     <Link to="/" className="flex items-center gap-2">
       <span className="flex size-9 items-center justify-center rounded-md bg-primary">
         <img
-          src="/favicon.png"
+          src="/logo.png"
           alt="VMG Charge"
           className="h-8 w-8 object-contain"
         />

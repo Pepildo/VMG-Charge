@@ -37,13 +37,13 @@ import { calcularCusto, formatarReais } from "@/lib/preco";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VMG Power — Eletroposto no centro de Sete Lagoas" },
+      { title: "VMG Charge" },
       {
         name: "description",
         content:
-          "Carregue seu carro elétrico na VMG Power, Rua Quintino Bocaiúva 131, Sete Lagoas – MG. R$ 2,15 por kWh, sem mensalidade.",
+          "Carregue seu carro elétrico na VMG Power, Rua Paulo Frontin 384, Centro, Sete Lagoas – MG. R$ 2,15 por kWh, sem mensalidade.",
       },
-      { property: "og:title", content: "VMG Power — Eletroposto no centro de Sete Lagoas" },
+      { property: "og:title", content: "VMG Charge — Eletroposto no centro de Sete Lagoas" },
       {
         property: "og:description",
         content: "Recarga de carro elétrico em Sete Lagoas por R$ 2,15 o kWh. Veja como usar, preços e como chegar.",
@@ -184,16 +184,16 @@ function Index() {
             <SectionTitle kicker="Quem somos" title="Um eletroposto de Sete Lagoas, feito para quem roda por aqui." />
             <div className="mt-6 space-y-4 text-lg leading-relaxed text-muted-foreground">
               <p>
-                A VMG Power nasceu de uma necessidade simples: quem tem carro elétrico em Sete Lagoas
-                precisava de um lugar perto, confiável e com preço claro para carregar.
+                A VMG Power nasceu da união de três irmãos, sócios da Vidraçaria Minas Gerais, que compartilham uma visão em comum: acreditar no futuro e investir em soluções que acompanhem a evolução da mobilidade e da tecnologia.
               </p>
               <p>
-                Montamos o nosso posto no centro da cidade, na Rua Quintino Bocaiúva, para você
-                carregar enquanto resolve as coisas do dia, toma um café ou trabalha por perto.
+                Atentos ao crescimento dos veículos elétricos e ao potencial das energias renováveis, enxergamos uma oportunidade de contribuir para um futuro mais sustentável, aproximando inovação e responsabilidade ambiental do dia a dia das pessoas.
               </p>
               <p>
-                Aqui não tem letra miúda. Você vê o preço antes, acompanha a recarga e paga só o que
-                usou. E se precisar, tem sempre alguém do outro lado do WhatsApp.
+                Foi assim que surgiu a ideia de criar nosso eletroposto, estrategicamente localizado do outro lado da rua da Vidraçaria Minas Gerais, em Sete Lagoas. Um empreendimento que representa um novo passo em nossa trajetória empresarial e nosso compromisso com as transformações que estão por vir.
+              </p>
+              <p>
+              Mais do que oferecer um ponto de recarga, queremos proporcionar praticidade, confiança e uma experiência acessível para quem escolhe a mobilidade elétrica. Acreditamos que o futuro se constrói com boas iniciativas, e a VMG Power nasceu justamente para fazer parte dessa mudança.
               </p>
             </div>
           </div>

@@ -75,16 +75,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "VMG Power — Eletroposto em Sete Lagoas" },
+      { title: "VMG Charge" },
       {
         name: "description",
-        content: "Eletroposto VMG Power: recarga para carros elétricos em Sete Lagoas, MG.",
+        content: "Eletroposto VMG Charge: recarga para carros elétricos em Sete Lagoas, MG.",
       },
-      { name: "author", content: "VMG Power" },
-      { property: "og:title", content: "VMG Power — Eletroposto em Sete Lagoas" },
+      { name: "author", content: "VMG Charge" },
+      { property: "og:title", content: "VMG Charge — Eletroposto em Sete Lagoas" },
       {
         property: "og:description",
-        content: "Eletroposto VMG Power: recarga para carros elétricos em Sete Lagoas, MG.",
+        content: "Eletroposto VMG Charge: recarga para carros elétricos em Sete Lagoas, MG.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
