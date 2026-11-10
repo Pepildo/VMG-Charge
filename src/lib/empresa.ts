@@ -1,12 +1,12 @@
 export const EMPRESA = {
-  nome: "VMG Power",
+  nome: "VMG Charge",
   slogan: "Energia limpa para quem está sempre em movimento.",
   endereco: {
     rua: "Rua Quintino Bocaiúva, 131",
     cidade: "Sete Lagoas",
     estado: "MG",
   },
-  telefone: "(31) 99202-1710",
+  telefone: "(31) 99202-0710",
   whatsapp: "5531992021710",
   email: "pedro@imop.com.br",
   horario: "Aberto 24 horas, todos os dias",
@@ -24,5 +24,5 @@ export const MAPA_LINK_URL = `https://www.google.com/maps/search/?api=1&query=${
 )}`;
 
 export const WHATSAPP_URL = `https://wa.me/${EMPRESA.whatsapp}?text=${encodeURIComponent(
-  "Olá! Gostaria de mais informações sobre o eletroposto VMG Power.",
+  "Olá! Gostaria de mais informações sobre o eletroposto VMG Charge.",
 )}`;

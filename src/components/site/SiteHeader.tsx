@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Clock, MapPin, Menu, MessageCircle, Phone, X, Zap } from "lucide-react";
+import { Clock, MapPin, Menu, MessageCircle, Phone, X} from "lucide-react";
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -17,12 +17,16 @@ export function Logo({ onDark = false }: { onDark?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-2">
       <span className="flex size-9 items-center justify-center rounded-md bg-primary">
-        <Zap className="size-5 text-primary-foreground" fill="currentColor" />
+        <img
+          src="/favicon.png"
+          alt="VMG Charge"
+          className="h-8 w-8 object-contain"
+        />
       </span>
       <span
         className={`font-display text-xl font-extrabold tracking-tight ${onDark ? "text-ink-foreground" : "text-foreground"}`}
       >
-        VMG <span className={onDark ? "text-primary" : "text-forest"}>Power</span>
+        VMG <span className={onDark ? "text-primary" : "text-forest"}>Charge</span>
       </span>
     </Link>
   );
