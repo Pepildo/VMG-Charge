@@ -13,24 +13,28 @@ export const SECOES = [
   { hash: "localizacao", label: "Localização" },
 ] as const;
 
+
 export function Logo({ onDark = false }: { onDark?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-2">
-      <span className="flex size-9 items-center justify-center rounded-md bg-primary">
-        <img
-          src="/logo.png"
-          alt="VMG Charge"
-          className="h-8 w-8 object-contain"
-        />
-      </span>
+    <Link to="/" className="flex items-center gap-3">
+      <img
+        src="/logo.png"
+        alt="Logo VMG Charge"
+        className="h-14 w-14 sm:h-16 sm:w-16 object-contain"
+      />
       <span
-        className={`font-display text-xl font-extrabold tracking-tight ${onDark ? "text-ink-foreground" : "text-foreground"}`}
+        className={`font-display text-xl font-extrabold tracking-tight ${onDark ? "text-ink-foreground" : "text-foreground"
+          }`}
       >
-        VMG <span className={onDark ? "text-primary" : "text-forest"}>Charge</span>
+        VMG{" "}
+        <span className={onDark ? "text-primary" : "text-forest"}>
+          Charge
+        </span>
       </span>
     </Link>
   );
 }
+
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);

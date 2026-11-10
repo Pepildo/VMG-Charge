@@ -316,7 +316,7 @@ function Index() {
       {/* Localização */}
       <section id="localizacao" className="border-t border-border bg-muted py-24">
         <div className="mx-auto max-w-6xl px-5">
-          <SectionTitle kicker="Localização" title="Passa aqui na Quintino Bocaiúva." />
+          <SectionTitle kicker="Localização" title="Passa aqui na Paulo Frontin." />
 
           <div className="mt-12 grid gap-8 lg:grid-cols-[1fr_1.5fr]">
             <div className="flex flex-col gap-6 rounded-xl bg-card p-8">
