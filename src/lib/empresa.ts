@@ -2,7 +2,7 @@ export const EMPRESA = {
   nome: "VMG Charge",
   slogan: "Energia limpa para quem está sempre em movimento.",
   endereco: {
-    rua: "Rua Quintino Bocaiúva, 131",
+    rua: "Paulo Frontin, 384",
     cidade: "Sete Lagoas",
     estado: "MG",
   },
