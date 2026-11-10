@@ -14,26 +14,19 @@ export const SECOES = [
 ] as const;
 
 
+
 export function Logo({ onDark = false }: { onDark?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-3">
+    <Link to="/" className="flex items-center">
       <img
         src="/logo.png"
-        alt="Logo VMG Charge"
-        className="h-14 w-14 sm:h-16 sm:w-16 object-contain"
+        alt="VMG Charge"
+        className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
       />
-      <span
-        className={`font-display text-xl font-extrabold tracking-tight ${onDark ? "text-ink-foreground" : "text-foreground"
-          }`}
-      >
-        VMG{" "}
-        <span className={onDark ? "text-primary" : "text-forest"}>
-          Charge
-        </span>
-      </span>
     </Link>
   );
 }
+
 
 
 export function SiteHeader() {
@@ -59,7 +52,7 @@ export function SiteHeader() {
       </div>
 
       <header className="sticky top-0 z-50 border-b border-border bg-card">
-        <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-5 py-3">
+        <div className="mx-auto flex h-24 max-w-6xl items-center justify-between px-5 py-2">
           <Logo />
 
           <nav className="hidden items-center gap-7 lg:flex">
